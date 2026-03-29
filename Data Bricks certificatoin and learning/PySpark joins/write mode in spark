@@ -1,0 +1,49 @@
+Data Writing Modes in Apache Spark
+When writing data in Spark, you specify a save mode to control behavior when the destination already exists. There are four modes:
+
+1. overwrite
+Deletes existing data and writes new data.
+pythondf.write.mode("overwrite").parquet("/path/to/output")
+ Destructive — existing data is permanently removed.
+
+2. append
+Adds new data to existing data without touching what's already there.
+pythondf.write.mode("append").parquet("/path/to/output")
+Useful for incremental loads or streaming sinks.
+
+3. ignore
+Does nothing if data already exists — silently skips the write.
+pythondf.write.mode("ignore").parquet("/path/to/output")
+Behaves like CREATE TABLE IF NOT EXISTS in SQL.
+
+4. errorIfExists (default)
+Throws an error if the destination already has data.
+pythondf.write.mode("errorIfExists").parquet("/path/to/output")
+This is the default behavior if you don't specify a mode.
+
+Quick Comparison
+ModeDestination existsDestination emptyoverwriteDeletes + rewritesWrites normallyappendAdds to existingWrites normallyignoreDoes nothingWrites normallyerrorIfExistsThrows errorWrites normally
+
+Usage with Different Formats
+python# Parquet
+df.write.mode("overwrite").parquet("/output/path")
+
+# CSV
+df.write.mode("append").option("header", True).csv("/output/path")
+
+# JSON
+df.write.mode("overwrite").json("/output/path")
+
+# Delta Lake
+df.write.mode("overwrite").format("delta").save("/output/path")
+
+# JDBC (database)
+df.write.mode("append").jdbc(url, table, properties)
+
+# Saving as a table
+df.write.mode("overwrite").saveAsTable("my_table")
+
+Using SaveMode Enum (Java/Scala style in PySpark)
+pythonfrom pyspark.sql import SaveMode
+
+df.write.mode(SaveMode.Overwrite).parquet("/path")
