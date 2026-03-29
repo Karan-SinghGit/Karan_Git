@@ -1,0 +1,89 @@
+df = spark.sql("""
+    select bowler, sum(Bowler_Wicket) total_wicket, p.Player_Name 
+    from ball_by_ball 
+    join player p on ball_by_ball.Bowler = p.Player_Id
+    group by Bowler, p.Player_Name
+    order by sum(Bowler_Wicket) desc
+""")
+
+base_path = "dbfs:/Volumes/workspace/default/karan"
+
+# ── Helper Function ─────────────────────────────────────────────────────────
+def save_with_custom_name(df, temp_path, final_path, fmt, mode, options={}):
+    w = df.coalesce(1).write.mode(mode)
+    for k, v in options.items():
+        w = w.option(k, v)
+    getattr(w, fmt)(temp_path)
+
+    files = dbutils.fs.ls(temp_path)
+    part_file = [f.path for f in files if f.name.startswith("part-")][0]
+    dbutils.fs.mv(part_file, final_path)
+    dbutils.fs.rm(temp_path, recurse=True)
+    print(f"✅ Saved: {final_path}")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# MODE 1: OVERWRITE
+# - Deletes existing data and writes fresh data
+# - Use when you want latest data only, no duplicates
+# - Folder: write_mode_overwrite/
+# ════════════════════════════════════════════════════════════════════════════
+print("\n📁 MODE: OVERWRITE — Deletes old data, writes new data fresh")
+
+overwrite_path = f"{base_path}/write_mode_overwrite"
+
+save_with_custom_name(df, f"{overwrite_path}/temp_csv",     f"{overwrite_path}/karan.csv",     "csv",     "overwrite", {"header": "true"})
+save_with_custom_name(df, f"{overwrite_path}/temp_parquet", f"{overwrite_path}/karan.parquet", "parquet", "overwrite")
+save_with_custom_name(df, f"{overwrite_path}/temp_json",    f"{overwrite_path}/karan.json",    "json",    "overwrite")
+save_with_custom_name(df, f"{overwrite_path}/temp_orc",     f"{overwrite_path}/karan.orc",     "orc",     "overwrite")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# MODE 2: APPEND
+# - Adds new data to existing data without touching old records
+# - Use for incremental loads, logs, event data
+# - Folder: write_mode_append/
+# ════════════════════════════════════════════════════════════════════════════
+print("\n📁 MODE: APPEND — Adds new data on top of existing data")
+
+append_path = f"{base_path}/write_mode_append"
+
+save_with_custom_name(df, f"{append_path}/temp_csv",     f"{append_path}/karan.csv",     "csv",     "append", {"header": "true"})
+save_with_custom_name(df, f"{append_path}/temp_parquet", f"{append_path}/karan.parquet", "parquet", "append")
+save_with_custom_name(df, f"{append_path}/temp_json",    f"{append_path}/karan.json",    "json",    "append")
+save_with_custom_name(df, f"{append_path}/temp_orc",     f"{append_path}/karan.orc",     "orc",     "append")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# MODE 3: IGNORE
+# - Does nothing if file already exists (silent skip)
+# - Use when you don't want to overwrite existing data accidentally
+# - Folder: write_mode_ignore/
+# ════════════════════════════════════════════════════════════════════════════
+print("\n📁 MODE: IGNORE — Skips writing if file already exists")
+
+ignore_path = f"{base_path}/write_mode_ignore"
+
+save_with_custom_name(df, f"{ignore_path}/temp_csv",     f"{ignore_path}/karan.csv",     "csv",     "ignore", {"header": "true"})
+save_with_custom_name(df, f"{ignore_path}/temp_parquet", f"{ignore_path}/karan.parquet", "parquet", "ignore")
+save_with_custom_name(df, f"{ignore_path}/temp_json",    f"{ignore_path}/karan.json",    "json",    "ignore")
+save_with_custom_name(df, f"{ignore_path}/temp_orc",     f"{ignore_path}/karan.orc",     "orc",     "ignore")
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# MODE 4: ERROR IF EXISTS (default)
+# - Throws an error if the destination already has data
+# - Safest mode — prevents accidental overwrites
+# - Folder: write_mode_errorifexists/
+# ════════════════════════════════════════════════════════════════════════════
+print("\n📁 MODE: ERRORIFEXISTS — Throws error if file already exists")
+
+error_path = f"{base_path}/write_mode_errorifexists"
+
+save_with_custom_name(df, f"{error_path}/temp_csv",     f"{error_path}/karan.csv",     "csv",     "errorIfExists", {"header": "true"})
+save_with_custom_name(df, f"{error_path}/temp_parquet", f"{error_path}/karan.parquet", "parquet", "errorIfExists")
+save_with_custom_name(df, f"{error_path}/temp_json",    f"{error_path}/karan.json",    "json",    "errorIfExists")
+save_with_custom_name(df, f"{error_path}/temp_orc",     f"{error_path}/karan.orc",     "orc",     "errorIfExists")
+
+
+print("\n🎉 All write modes completed!")
