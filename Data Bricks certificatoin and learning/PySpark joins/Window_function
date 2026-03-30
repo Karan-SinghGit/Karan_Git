@@ -1,0 +1,26 @@
+from pyspark.sql import Window
+from pyspark.sql.functions import row_number, rank, dense_rank
+
+# Create DataFrame for employee table with 10 rows
+data = [
+    (1, "Alice", "HR", 5000),
+    (2, "Bob", "Finance", 6000),
+    (3, "Charlie", "HR", 5500),
+    (4, "David", "IT", 7000),
+    (5, "Eve", "Finance", 6200),
+    (6, "Frank", "IT", 7100),
+    (7, "Grace", "HR", 5200),
+    (8, "Heidi", "Finance", 6300),
+    (9, "Ivan", "IT", 6900),
+    (10, "Judy", "HR", 5400)
+]
+columns = ["emp_id", "name", "department", "salary"]
+df = spark.createDataFrame(data, columns)
+
+window = Window.partitionBy("department").orderBy(df.salary.desc())
+
+df_windowed = df.withColumn("row_number", row_number().over(window)) \
+    .withColumn("rank", rank().over(window)) \
+    .withColumn("dense_rank", dense_rank().over(window))
+
+display(df_windowed)
