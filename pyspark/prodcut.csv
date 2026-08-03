@@ -1,0 +1,61 @@
+ProductID,ProductName,ProductCategory,ProductSubCategory,ProductBrand,ProductUnitPrice,ProductWeightKg
+PROD-0048,Meridian Table 349,Furniture,Tables,Crestline,788.99,0.32
+PROD-0059,Pinecrest Vacuum 488,Appliances,Vacuums,Argon,257.93,13.14
+PROD-0039,Pinecrest Paper 282,Office Supplies,Paper,Pinecrest,50.72,23.9
+PROD-0042,Pinecrest Accessorie 782,Electronics,Accessories,Meridian,394.79,27.92
+PROD-0012,Voltura Paper 385,Office Supplies,Paper,Falcon,261.01,5.38
+PROD-0021,Zenith Chair 971,Furniture,Chairs,Crestline,86.88,2.81
+PROD-0025,Voltura Laptop 618,Electronics,Laptops,Pinecrest,163.29,14.03
+PROD-0018,Nova Table 268,Furniture,Tables,Meridian,7.58,15.68
+PROD-0036,Zenith Bookcase 491,Furniture,Bookcases,Nova,1031.02,8.98
+PROD-0019,Falcon Fan 258,Appliances,Fans,Voltura,359.57,38.75
+PROD-0023,Argon Storage 344,Office Supplies,Storage,Pinecrest,477.96,26.9
+PROD-0026,Pinecrest Phone 261,Electronics,Phones,Falcon,1001.33,28.17
+PROD-0041,Meridian Phone 171,Electronics,Phones,Argon,749.67,26.57
+PROD-0001,Nova Table 981,Furniture,Tables,Zenith,187.65,6.48
+PROD-0045,Crestline Table 774,Furniture,Tables,Zenith,344.12,26.59
+PROD-0015,Argon Laptop 919,Electronics,Laptops,Zenith,302.14,7.69
+PROD-0032,Nova Table 415,Furniture,Tables,Argon,1079.28,31.87
+PROD-0006,Nova Accessorie 214,Electronics,Accessories,Argon,1055.07,33.28
+PROD-0029,Nova Label 194,Office Supplies,Labels,Meridian,996.07,1.86
+PROD-0022,Voltura Table 692,Furniture,Tables,Nova,745.16,16.83
+PROD-0003,Pinecrest Laptop 887,Electronics,Laptops,Argon,138.3,17.45
+PROD-0056,Meridian Label 651,Office Supplies,Labels,Voltura,588.43,10.99
+PROD-0002,Meridian Kitchen 710,Appliances,Kitchen,Falcon,637.29,38.85
+PROD-0027,Zenith Accessorie 999,Electronics,Accessories,Crestline,321.04,35.6
+PROD-0033,Voltura Accessorie 782,Electronics,Accessories,Zenith,427.65,22.44
+PROD-0055,Nova Heater 977,Appliances,Heaters,Meridian,574.99,37.72
+PROD-0005,Argon Binder 880,Office Supplies,Binders,Crestline,649.56,31.17
+PROD-0020,Nova Accessorie 698,Electronics,Accessories,Falcon,605.91,34.12
+PROD-0034,Voltura Vacuum 985,Appliances,Vacuums,Crestline,1171.57,32.45
+PROD-0058,Meridian Chair 706,Furniture,Chairs,Nova,105.32,17.2
+PROD-0050,Falcon Monitor 783,Electronics,Monitors,Argon,1140.3,35.67
+PROD-0049,Crestline Monitor 923,Electronics,Monitors,Falcon,65.01,10.04
+PROD-0038,Pinecrest Paper 459,Office Supplies,Paper,Meridian,817.02,33.76
+PROD-0051,Crestline Heater 861,Appliances,Heaters,Falcon,542.83,30.1
+PROD-0052,Voltura Label 381,Office Supplies,Labels,Falcon,97.59,11.5
+PROD-0053,Zenith Storage 241,Office Supplies,Storage,Crestline,281.36,27.79
+PROD-0014,Meridian Fan 578,Appliances,Fans,Nova,809.67,39.37
+PROD-0035,Argon Kitchen 901,Appliances,Kitchen,Meridian,963.67,34.58
+PROD-0046,Voltura Paper 788,Office Supplies,Paper,Pinecrest,273.45,8.05
+PROD-0047,Falcon Laptop 725,Electronics,Laptops,Zenith,549.22,35.46
+PROD-0044,Voltura Accessorie 540,Electronics,Accessories,Argon,560.66,17.74
+PROD-0057,Argon Kitchen 784,Appliances,Kitchen,Meridian,870.4,33.64
+PROD-0028,Voltura Bookcase 834,Furniture,Bookcases,Argon,248.3,25.41
+PROD-0016,Crestline Vacuum 385,Appliances,Vacuums,Falcon,303.52,36.94
+PROD-0010,Falcon Label 223,Office Supplies,Labels,Voltura,273.51,13.59
+PROD-0013,Falcon Vacuum 926,Appliances,Vacuums,Meridian,232.54,3.97
+PROD-0043,Meridian Desk 793,Furniture,Desks,Crestline,740.54,12.11
+PROD-0024,Zenith Label 109,Office Supplies,Labels,Falcon,747.29,22.56
+PROD-0031,Crestline Laptop 658,Electronics,Laptops,Nova,1002.34,23.34
+PROD-0054,Meridian Chair 438,Furniture,Chairs,Falcon,501.85,8.35
+PROD-0040,Zenith Storage 494,Office Supplies,Storage,Voltura,309.39,28.38
+PROD-0004,Pinecrest Kitchen 612,Appliances,Kitchen,Crestline,611.68,4.35
+PROD-0030,Pinecrest Binder 265,Office Supplies,Binders,Falcon,664.26,17.16
+PROD-0008,Falcon Phone 662,Electronics,Phones,Crestline,321.74,34.91
+PROD-0037,Voltura Fan 328,Appliances,Fans,Nova,793.74,16
+PROD-0060,Meridian Fan 358,Appliances,Fans,Zenith,567.02,29.99
+PROD-0011,Zenith Desk 824,Furniture,Desks,Nova,278.59,36.23
+PROD-0007,Voltura Binder 999,Office Supplies,Binders,Zenith,107.36,19.49
+PROD-0009,Voltura Vacuum 830,Appliances,Vacuums,Pinecrest,481.8,26.9
+PROD-0017,Nova Kitchen 195,Appliances,Kitchen,Voltura,203.74,19.48

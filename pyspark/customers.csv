@@ -1,0 +1,91 @@
+CustomerID,CustomerName,CustomerEmail,CustomerPhone,CustomerAddress,CustomerCity,CustomerState,CustomerZip,CustomerCountry,CustomerSegment,CustomerJoinDate
+CUST-0024,Alicia Hubbard,barbara27@example.net,+1-374-429-6717x5655,7468 Shawn Island Suite 516,Lake Mary,Oregon,67950,United States,Home Office,15-09-2024
+CUST-0023,Andrea Hall,kristin93@example.com,683-624-2102,74648 Kim Rapid Apt. 659,East Keithport,Vermont,33317,United States,Small Business,17-09-2020
+CUST-0008,Andrea Jones,richarddavid@example.net,799.609.1699,534 Anderson Rue,North Susan,Colorado,39822,United States,Consumer,13-11-2022
+CUST-0032,Andrew Ferrell,davispaige@example.org,(275)786-9261x7964,7351 Stephens Rue,Debraville,Florida,47513,United States,Consumer,19-11-2020
+CUST-0054,Andrew Reeves,jstone@example.net,925.695.2694x95888,55169 Robles Stream Apt. 974,New William,North Carolina,86430,United States,Home Office,30-06-2024
+CUST-0014,Angel Riggs,gibsonolivia@example.net,567.463.2016,83172 Contreras Points Suite 798,Lake Lance,Illinois,56434,United States,Corporate,25-09-2024
+CUST-0087,Angela Davis,danafoster@example.net,001-706-723-4456,3132 Eric Expressway Suite 756,Haynesstad,New Jersey,16326,United States,Small Business,06-04-2023
+CUST-0088,Ann Aguirre,margaret90@example.org,521-335-6804x42067,21003 James Locks Suite 199,South Kyle,Kentucky,34425,United States,Small Business,03-03-2025
+CUST-0028,Barry Welch,wendy16@example.org,001-517-824-0050x45562,21969 Tyler Prairie,Finleyfort,Ohio,19259,United States,Home Office,28-09-2021
+CUST-0005,Beth Keller,josephbrennan@example.com,383.546.5787,50983 Adrian Station,Lake Toddland,Wisconsin,83220,United States,Corporate,16-11-2020
+CUST-0047,Bradley Coleman,lmorrison@example.net,951-215-4479x6275,640 Emily Lodge Suite 820,Holtstad,North Dakota,19215,United States,Home Office,28-10-2024
+CUST-0082,Bradley Tran,kimberly04@example.org,398.236.4037x61379,2696 Payne Extensions Suite 109,Edwardsberg,Kansas,9352,United States,Corporate,26-08-2020
+CUST-0057,Breanna Gilbert,johnsantiago@example.net,230.416.5712,773 Morris Rue Apt. 193,Port Amanda,Oklahoma,70644,United States,Home Office,10-04-2024
+CUST-0045,Brian Stein,chenbailey@example.net,(446)309-5396,88888 Peter Mountains Apt. 654,South Danielle,South Carolina,98453,United States,Consumer,30-08-2020
+CUST-0001,Brian Yang,garzaanthony@example.org,538.990.8386,26542 Susan Junction Apt. 161,North Judithbury,Iowa,47553,United States,Consumer,26-10-2024
+CUST-0089,Carl Stein,david70@example.org,001-566-470-6625,7209 Deborah Parks Suite 870,North Wendyborough,Tennessee,11998,United States,Home Office,24-12-2021
+CUST-0010,Carlos Whitney,joycearnold@example.com,-9271,45053 Elizabeth Knoll,Calderonton,Alabama,73886,United States,Consumer,01-01-2025
+CUST-0084,Chad Smith,hbenton@example.net,001-642-352-4105x6481,8507 Michael Glens Apt. 913,West Elizabethburgh,Delaware,97596,United States,Corporate,16-02-2023
+CUST-0021,Christopher Smith,joshuamccann@example.net,627-910-9477x7520,67190 Edward Port,Tinaborough,Maine,40325,United States,Consumer,03-01-2021
+CUST-0070,Cody Cole,fgarcia@example.com,-7259,826 Dominic Hollow,Wardview,Connecticut,35681,United States,Corporate,18-01-2023
+CUST-0030,Colleen Lee,erica21@example.net,+1-504-470-9521x4562,842 Sloan Orchard Suite 517,Kimberlybury,Rhode Island,10370,United States,Consumer,15-04-2021
+CUST-0039,Connie Maxwell,dixondaniel@example.net,455.423.1243,77997 Lin Road,Warrenfurt,Maryland,41937,United States,Small Business,03-05-2021
+CUST-0003,Crystal Johnson,richard13@example.net,001-653-876-7242x388,3287 Katelyn Wall Apt. 226,Lake Mark,Wyoming,78673,United States,Home Office,25-11-2020
+CUST-0009,Daniel Baker,nicole35@example.com,(378)449-8084,18244 Jennifer Ford Suite 874,North Stephenshire,Connecticut,7159,United States,Small Business,16-01-2021
+CUST-0033,Daniel Fowler,williamsmatthew@example.org,001-431-283-9335,28421 David Knolls Apt. 950,Jamesville,New Jersey,23339,United States,Home Office,28-11-2021
+CUST-0069,David Jones,unovak@example.org,+1-647-573-5866x2961,42626 Ward Course,New Juliestad,Arkansas,1181,United States,Consumer,18-04-2025
+CUST-0015,David Walsh,rsims@example.com,443-545-5812,231 Russell Plains Suite 603,Merrittfort,New Hampshire,55570,United States,Consumer,13-07-2022
+CUST-0079,Diana Mayer,shawn75@example.net,5179518636,4589 Ashlee Oval Suite 001,Hayesland,Montana,82575,United States,Small Business,02-07-2024
+CUST-0036,Dr. Gregory Hawkins,farmeraudrey@example.com,-10780,0229 Jones Streets Apt. 183,New Williamberg,Texas,49809,United States,Consumer,06-09-2022
+CUST-0086,Elizabeth Dean,frichardson@example.org,001-883-620-6038x5050,83670 Jennifer Course,Smithborough,Maine,6255,United States,Home Office,10-03-2025
+CUST-0061,Elizabeth Johnson,lisa39@example.org,6658180170,65676 Miller Shore,Elliottside,New Jersey,71188,United States,Corporate,31-03-2021
+CUST-0043,Emily Stokes,mmckee@example.com,+1-297-974-6886x23924,181 Miller Estates Suite 782,Karenmouth,Iowa,57841,United States,Corporate,15-01-2021
+CUST-0072,Erika Ramirez,kdiaz@example.org,001-382-880-7374,43426 Jones Rapid Suite 968,Jessicafort,Oregon,66903,United States,Home Office,14-03-2025
+CUST-0017,Gabriel Juarez,aramirez@example.com,270-580-5310,92327 Anne Forge,North Jorge,Massachusetts,61453,United States,Small Business,30-01-2024
+CUST-0040,Heather Jones,dhayes@example.com,511-799-8679x8079,207 Lisa Villages Suite 182,South Scottport,Louisiana,5631,United States,Consumer,27-10-2021
+CUST-0041,Helen Hardin,vortiz@example.net,+1-705-315-1864x492,4629 Kyle Lane,Ritterhaven,North Dakota,84844,United States,Home Office,16-07-2024
+CUST-0048,Holly Reyes,jacobserika@example.com,(271)492-8565x431,681 Hampton Squares Suite 394,Johnsonland,Kansas,91462,United States,Consumer,01-03-2025
+CUST-0085,James Hernandez,tranrobin@example.net,+1-263-453-6541x9518,061 Cline Trail,Port Michellebury,Arizona,41224,United States,Corporate,21-03-2022
+CUST-0076,James Lopez,angelaburns@example.org,(557)890-5072,7677 Christopher Burgs Apt. 404,New Paul,Rhode Island,29971,United States,Corporate,09-04-2023
+CUST-0027,Jane Mcneil,tylerjohnson@example.net,001-851-471-8702,4596 Melissa Walk,Williamsfort,Virginia,88890,United States,Corporate,17-11-2024
+CUST-0013,Jason Bentley,christinaturner@example.net,9449369957,721 Robertson Roads,Nguyenport,Oklahoma,81668,United States,Corporate,05-04-2022
+CUST-0038,Jeffrey Anderson MD,vincentwhitaker@example.com,860-860-7159,1605 Laurie River Suite 516,Keithville,Alabama,14376,United States,Consumer,19-10-2021
+CUST-0081,Jennifer Anderson MD,zdavis@example.org,255-442-6221,3269 Heath Corners Apt. 219,Smithmouth,Delaware,96184,United States,Small Business,03-07-2022
+CUST-0044,Jennifer Sanders,joe15@example.org,4519522047,010 Lewis Drive Suite 143,Port Shannon,Minnesota,39973,United States,Consumer,11-03-2021
+CUST-0058,Jennifer Simpson DVM,nancy04@example.net,+1-515-347-8872x874,74205 Bradley Throughway Apt. 296,East Robertburgh,Arizona,56560,United States,Corporate,27-02-2023
+CUST-0067,Jennifer Smith,amanda40@example.net,001-762-611-8233x984,56793 Kevin Views Apt. 016,Hopkinstown,Alabama,50211,United States,Corporate,20-06-2022
+CUST-0053,Johnny Khan,amitchell@example.org,(624)356-5060x98358,784 David Court Suite 558,East Brandy,Arkansas,48421,United States,Small Business,10-05-2024
+CUST-0068,Jonathan Hamilton,ariel18@example.org,239.474.0148,39261 Martin Garden Suite 856,Browntown,Vermont,99540,United States,Home Office,12-04-2024
+CUST-0025,Joseph Dean,wgarrett@example.org,548.424.7710,086 Jeffrey Ville Apt. 712,Lake Mollymouth,Nebraska,65824,United States,Home Office,31-03-2025
+CUST-0004,Juan Dunlap,maldonadoamanda@example.com,001-551-446-2704x82814,88095 Smith Lake Suite 303,Carlsonmouth,North Dakota,74865,United States,Corporate,26-04-2025
+CUST-0052,Justin Flores,cmartinez@example.org,(710)746-9632,78774 Johnson Lock,Theresaberg,Wisconsin,66750,United States,Home Office,13-11-2022
+CUST-0034,Karen Strickland,hayesjeffrey@example.net,3849700766,15921 Joshua Roads Suite 698,Lake Robert,Delaware,39153,United States,Home Office,07-11-2022
+CUST-0077,Kathleen Dixon,adamsamy@example.com,-7323,1713 Lisa Radial Suite 962,Port Stephen,West Virginia,81261,United States,Home Office,12-04-2021
+CUST-0074,Kelly Bailey,kimheather@example.com,440-410-5123,673 Soto Ferry Suite 609,West Larry,New Jersey,26364,United States,Home Office,30-10-2022
+CUST-0078,Kim Carlson,mariopadilla@example.com,001-448-512-6042,536 Thomas Roads,Port Jamie,Arkansas,35722,United States,Corporate,21-09-2023
+CUST-0073,Kimberly Little,rodriguezjohn@example.net,(529)509-6561x014,6798 Michael Burg Suite 146,Stephensstad,Vermont,11754,United States,Small Business,28-02-2021
+CUST-0065,Kristen Rowe,powens@example.com,245-587-7175x3556,48996 Hernandez Isle,Rochaborough,Montana,30650,United States,Small Business,25-06-2022
+CUST-0083,Lori Mason,zhenderson@example.org,+1-788-892-4141x8328,6303 Sandy Crescent,North Sandra,Montana,59925,United States,Home Office,24-08-2023
+CUST-0050,Maria Cole,david89@example.org,001-626-380-1824x22535,84249 Wayne Extension Apt. 299,Morrowland,Florida,44753,United States,Consumer,17-10-2024
+CUST-0055,Mark Harvey,rhernandez@example.org,8915307562,970 April Points Suite 786,Lake Brett,New Mexico,41625,United States,Corporate,13-05-2025
+CUST-0029,Megan Moore,llandry@example.com,+1-664-674-3671x3695,640 Renee Summit,Stevetown,New Jersey,65608,United States,Consumer,29-09-2024
+CUST-0075,Michael Flynn,lloydamanda@example.com,737-714-7859x69691,249 Emily Island Apt. 341,Priceborough,Indiana,24493,United States,Consumer,13-06-2022
+CUST-0006,Michael Lewis,jenniferkhan@example.net,337.263.1165x6670,513 James Mission Apt. 624,North Micheleland,North Carolina,61138,United States,Corporate,31-10-2021
+CUST-0020,Michael West,davisjeffrey@example.net,749.757.8856,4431 Leslie Summit Apt. 337,Freemanbury,Vermont,36742,United States,Home Office,16-03-2024
+CUST-0062,Monica Walker,avilatiffany@example.com,+1-886-286-3375x24310,11907 John Cape,Davidside,Montana,53226,United States,Corporate,11-10-2022
+CUST-0071,Mr. David Wright,mwheeler@example.com,924-706-5965,924 Morrison Square Apt. 752,East Ryanchester,Maryland,52699,United States,Consumer,04-06-2025
+CUST-0046,Nicole Anderson,amy27@example.net,822.917.0430x3054,34505 Martinez Land Suite 676,West Johnville,Wyoming,44939,United States,Corporate,14-06-2025
+CUST-0051,Patricia Baker,katiebutler@example.net,9783447364,76773 Lawson Island,Port Michelleland,Arizona,94658,United States,Small Business,07-03-2022
+CUST-0035,Patricia Le,russellbeasley@example.com,376-361-5654x52711,52809 Santiago Loop Suite 604,Garciaville,Tennessee,79197,United States,Home Office,22-02-2022
+CUST-0066,Phillip Burns,umurray@example.com,(328)272-8080,2312 Jeffery Motorway,South Andrea,Utah,49417,United States,Home Office,19-11-2020
+CUST-0060,Rachel Fox,christian91@example.org,-3638,971 Stokes Motorway,Port John,Wisconsin,17795,United States,Consumer,24-02-2023
+CUST-0022,Rachel Perez,chayes@example.com,001-564-699-0913,32812 Ricky Spurs,North Angela,Nebraska,78333,United States,Corporate,07-12-2022
+CUST-0056,Raymond Le,chelsea33@example.com,-5143,98665 Kelly Heights Apt. 574,Barrmouth,Ohio,98456,United States,Home Office,23-12-2022
+CUST-0049,Steven Wallace,cochrantammy@example.com,+1-451-588-4422x58313,58957 Cheryl Corners Apt. 467,Gonzalezberg,California,69404,United States,Corporate,21-08-2022
+CUST-0042,Susan Davis DDS,andrew42@example.org,473-832-2141x88805,29270 Diaz Stravenue,Lake Jacqueline,West Virginia,31634,United States,Home Office,06-06-2025
+CUST-0002,Thomas Miller,maria95@example.net,610.934.1316,55341 Amanda Gardens Apt. 764,Lindsaymouth,Ohio,84387,United States,Consumer,09-01-2024
+CUST-0059,Timothy Smith,wyoung@example.com,649-390-4530x17426,9332 Hernandez Summit Suite 687,South Elizabethburgh,Florida,99768,United States,Home Office,09-04-2023
+CUST-0037,Todd Carlson,moorekaren@example.org,+1-814-376-7976x43815,978 Williams Locks Apt. 034,Ericport,Washington,28187,United States,Small Business,02-06-2024
+CUST-0016,Tommy Evans,acastaneda@example.net,001-489-937-3467x0656,806 Christopher Meadow,Port Nicoleshire,Missouri,18287,United States,Corporate,30-11-2024
+CUST-0018,Traci Rodriguez,hickmanbarbara@example.com,(831)793-1491x9058,506 Garcia Lake,Garyville,Wyoming,83808,United States,Corporate,15-01-2025
+CUST-0019,Tracie Nelson,umarshall@example.net,253-914-7379x965,73545 Beard Squares Suite 808,Zimmermanchester,Idaho,25543,United States,Small Business,04-01-2021
+CUST-0031,Tracy Ballard,christopher60@example.com,-11121,859 Deborah Roads,Port Erica,Utah,61353,United States,Small Business,16-02-2025
+CUST-0064,Tracy Grant,paulscott@example.com,+1-317-551-8304x6990,3540 Sharon Streets,Port Steven,Arkansas,15877,United States,Small Business,25-04-2024
+CUST-0011,Vanessa Cochran,vjohnson@example.com,(534)221-6073x37543,5414 May Locks,Dicksonberg,Kansas,89566,United States,Consumer,27-06-2025
+CUST-0026,Veronica Sanchez,patrickweeks@example.net,001-921-446-5840x4499,755 Gibson Islands Apt. 396,Williamview,Nebraska,31114,United States,Corporate,11-11-2024
+CUST-0012,Victor Baker,carlsonmichael@example.com,(798)816-9340x60883,595 Jennifer Hills,Sheilaville,Kentucky,66970,United States,Consumer,16-02-2022
+CUST-0080,William Patterson,nicoleturner@example.com,554-815-2064,103 Miller Ramp,Smithburgh,New Hampshire,30148,United States,Small Business,07-03-2023
+CUST-0063,Wyatt Young,barbara53@example.com,(483)864-4089,56856 Hernandez Lane Apt. 873,Port Michelle,Arkansas,30037,United States,Corporate,01-02-2022
+CUST-0007,Zachary Huff,housemelinda@example.org,(977)436-0260x64746,3098 Julie Centers,South Lindseyside,Connecticut,7073,United States,Consumer,03-07-2023
+CUST-0090,Zachary Stephens,mayokimberly@example.com,587.259.8564x2059,78593 Craig Shoals Apt. 480,South James,North Dakota,29259,United States,Corporate,18-06-2023
